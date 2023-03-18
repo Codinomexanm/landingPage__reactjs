@@ -1,0 +1,19 @@
+video{
+    width:100%;
+    height: auto;
+    filter: blur(1px) grayscale(50%)   
+}
+.container{
+    position: relative;
+    width: 100%;
+    top:45px;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(37,37,37);
+  }
+  
+  .navbar img {
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+  }
+  
+  .navbar .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .navbar a:first-child {
+    margin-left: 0;
+  }
+  
