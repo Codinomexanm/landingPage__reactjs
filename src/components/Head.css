@@ -6,7 +6,7 @@ video{
 .container{
     position: relative;
     width: 100%;
-    top:45px;
+    top: 60px;
 }
 .wrapper{
     position: absolute;

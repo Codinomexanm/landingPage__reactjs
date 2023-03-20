@@ -1,33 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #fff;
-    padding: 10px;
-    background-color: rgb(37,37,37);
-  }
-  
-  .navbar img {
-    margin-right: 5px;
-    width: 30px;
-    height: auto;
-  }
-  
-  .navbar .links {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .navbar a {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  
-  .navbar a:first-child {
-    margin-left: 0;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  /* background-color: rgb(37,37,37); */
+  background-color: rgb(247, 242, 242);
+  font-size: 20px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  animation: spFadeIn 0.5s;
+  z-index: 99;
+}
+
+.navbar img {
+  margin-left: 15%;
+  width: 60px;
+  height: auto;
+  left: 5;
+}
+
+.navbar .links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.navbar a {
+  margin-right: 70px;
+  position: relative;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: purple;
+  transition: all ease-in-out 300ms;
+
+}
+
+.navbar a:hover::after {
+  left: 25%;
+  width: 50%;
+}
