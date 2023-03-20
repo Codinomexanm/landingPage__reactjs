@@ -27,14 +27,6 @@
   border-radius: 3px; /* Raio das bordas da scrollbar */
 }
 
-/* Estilo para a scrollbar horizontal */
-::-webkit-scrollbar-horizontal {
-  height: 30px; /* Altura da scrollbar */
-}
-
-::-webkit-scrollbar-thumb:horizontal {
-  background-color: #fff;; /* Cor do preenchimento da scrollbar */
-}
 
 *{
   margin: 0;

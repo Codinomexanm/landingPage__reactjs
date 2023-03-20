@@ -3,7 +3,7 @@ import './Head.css'
 
 const Head = () => {
   return (
-    <div id="home" className='container'>
+    <div id="home" className='container_Head'>
       <video autoPlay muted loop >
         <source src="src\assets\video.mp4" type="video/mp4" />
         <p>Seu navegador não suporta a tag de vídeo.</p>

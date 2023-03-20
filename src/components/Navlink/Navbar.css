@@ -11,12 +11,8 @@ html {
   height: 60px;
   width: 100%;
   color: #fff;
-  padding: 10px;
-  /* background-color: rgb(37,37,37); */
   background-color: rgb(247, 242, 242);
   font-size: 20px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  animation: spFadeIn 0.5s;
   z-index: 99;
 }
 

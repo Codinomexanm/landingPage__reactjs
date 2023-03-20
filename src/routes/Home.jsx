@@ -1,9 +1,10 @@
 import React from 'react'
-import Head from '../components/Head'
-import Container from '../components/Container'
+import Head from '../components/Header/Head'
+import Container from '../components/Container/Container'
+import './Home.css'
 const Home = () => {
   return (
-    <div>  
+    <div className='Home__'>  
     <Head/>
     <Container/>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Sobre from '../components/About/Sobre'
 
 const About = () => {
   return (
     <div>
-      deu certo
+      <Sobre/>
     </div>
   )
 }

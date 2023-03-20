@@ -1,0 +1,12 @@
+.container__contact{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    background: none;
+    color: black;
+
+}
