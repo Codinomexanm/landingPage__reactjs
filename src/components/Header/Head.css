@@ -1,54 +1,67 @@
-video{
-    width:100%;
-    height: auto;
-    filter: blur(1px) contrast(150%) 
+video {
+  width: 100%;
+  height: auto;
+  filter: blur(1px) contrast(150%)
 }
-.container_Head{
-    position: relative;
-    width: 100%;
+
+.container_Head {
+  position: relative;
+  width: 100%;
 }
-.wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
 }
+
 .typewriter {
-    overflow: hidden; /* Para ocultar os caracteres que ainda não foram escritos */
-    display: inline-block; /* Para que a animação comece no início da linha */
-    animation: typewriter 2s steps(30) 1s forwards; /* Definindo a animação */
+  white-space: nowrap;
+  text-align: left;
+  overflow: hidden;
+  /* Para ocultar os caracteres que ainda não foram escritos */
+  display: inline-block;
+  /* Para que a animação comece no início da linha */
+  animation: typewriter 2s steps(30) 1s forwards;
+  /* Definindo a animação */
+}
+
+.typewriter p{
+border-right: 1px solid rgba(255, 255, 255, .765);
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
   }
-  
-  @keyframes typewriter {
-    from {
-      width: 100%;
-    }
-    to {
-      width: 100%;
-    }
+
+  to {
+    width: 100%;
   }
-  
+}
+
 .wrapper span {
-    display: inline-block;
+  display: inline-block;
+  opacity: 0;
+}
+
+.wrapper span.show {
+  animation: slideIn 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  from {
     opacity: 0;
+    transform: translateX(-10%);
   }
-  
-  .wrapper span.show {
-    animation: slideIn 0.5s ease-in-out;
-    animation-fill-mode: both;
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateX(-10%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
+}
