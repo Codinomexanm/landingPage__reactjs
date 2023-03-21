@@ -31,7 +31,6 @@ const Container = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker className='pop'  position={[-15.774314204480694, -48.2823397892441]}>
-              
               <Popup>
                 Igreja cátia
               </Popup>

@@ -7,4 +7,22 @@
   background-color: #333;
   color: #fff;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-right: 10px;
+}
+.footer p{
+  font-size: 20px;
+  color: #fff; 
+  margin-right: 20px; 
 }
