@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import "./Head.css"
 const Typewriter = () => {
-  const phrases = [    "O amor é paciente, o amor é bondoso. ",    "Eu disse essas coisas para que em mim vocês tenham paz. ",    "Por isso não tema, pois estou com você;não tenha medo, pois sou o seu Deus.Eu o fortalecerei e o ajudarei eu o segurareicom a minha mão direita vitoriosa. Isaías 41:10"  ];
+  const phrases = [    "O amor é paciente, o amor é bondoso. ",
+      "Eu disse essas coisas para que em mim vocês tenham paz. ",
+      "Por isso não tema. Isaías 41:10"  ];
   const [currentPhrase, setCurrentPhrase] = useState('');
   const [typingComplete, setTypingComplete] = useState(false);
 

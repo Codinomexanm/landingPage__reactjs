@@ -10,7 +10,10 @@
     border-bottom: 3px solid black;
     background: none;
     color: black;
+    text-align: justify;
+    margin: 0 auto;
 }
+
 
 #transform-world {
     color: white;
@@ -39,7 +42,7 @@
 }
 .xxt2{
     height: 500px;
-    width: 99.5vw;
+    width: 99.4vw;
 }
 
 #map {
@@ -50,8 +53,17 @@
     width: 100%;
     height: 100%;
 }
+.xs{
+    width: 500px;
+    border: 1px solid transparent;
+}
+.xs h1{
+   text-align: center;
+   margin-bottom: 50px;
+}
 @media (prefers-color-scheme: dark) {
     .left {
         filter: var(--map-tiles-filter, none);
     }
 }
+
