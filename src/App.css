@@ -1,5 +1,4 @@
 #root {
-  margin: 0 auto;
   text-align: center;
 }
 *{
@@ -26,5 +25,5 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .navs{
-  height: 120px;
+  height: 85px;
 }

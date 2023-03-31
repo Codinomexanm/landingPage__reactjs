@@ -1,7 +1,7 @@
 video {
   width: 100%;
   height: auto;
-  filter: blur(1px) contrast(150%)
+  /* filter: blur(1px) contrast(150%) */
 }
 
 .container_Head {

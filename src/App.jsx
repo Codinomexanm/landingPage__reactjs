@@ -10,9 +10,7 @@ return (
       <Navbar/>
       </div>
       <Outlet/>
-      <div className='foo'>
       <Footer/>
-      </div>
     </div>
   )
 }

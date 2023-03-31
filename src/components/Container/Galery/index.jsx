@@ -48,10 +48,10 @@ const Gallery = () => {
     <section className="container__gallery">
       <div className="search-container">
         {!!searchValue && <h1>Search value: {searchValue}</h1>}
-        <TextInput searchValue={searchValue} handleChange={handleChange} />
+        {/* <TextInput searchValue={searchValue} handleChange={handleChange} /> */}
       </div>
       {filteredPosts.length > 0 && <Posts posts={filteredPosts} />}
-      {filteredPosts.length === 0 && <p>Não existem posts =(</p>}
+      {filteredPosts.length === 0 && <p>Não existem posts =( </p>}
       <div className="button-container">
         {!searchValue && (
           <Button

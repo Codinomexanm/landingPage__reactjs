@@ -6,6 +6,10 @@ nav{
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
+#bar{
+  display: contents;
+  z-index: 999;
+}
 #navbars{
   display: flex;
   align-items: center;
@@ -58,6 +62,9 @@ nav{
 }
 #mobile i{
   color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 @media screen and (max-width:769px) {
   #navbars{
@@ -65,15 +72,16 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    position: fixed;
-    top: 90px;
+    position: fixed; /* adicionado */
+    top: 0; /* adicionado */
     right: -300px;
     width: 300px;
     height: 100vh;
     background: #2a3239;
     box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-    padding: 40px 0 0 10px;
+    padding: 80px 0 0 10px;
     transition: 0.3s ease-in-out;
+    z-index: 98;
   }
   #navbars.active{
     right: 0px;
