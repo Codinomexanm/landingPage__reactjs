@@ -10,7 +10,7 @@ const Gallery = () => {
   const [posts, setPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
   const [page, setPage] = useState(0);
-  const [postsPerPage] = useState(7);
+  const [postsPerPage] = useState(6);
   const [searchValue, setSearchValue] = useState('');
 
   const handleLoadPosts = useCallback(async (page, postsPerPage) => {
