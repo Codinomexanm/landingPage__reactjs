@@ -1,6 +1,7 @@
 import React from 'react'
 import './Container.css'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import Gallery from './Galery'
 
 
 
@@ -27,6 +28,9 @@ const Container = () => {
         <section id="transform-world1">
           <p>TRANSFORME O MUNDO COM A GENTE</p>
         </section>
+      </div>
+      <div className='xxt'>
+        <Gallery/>
       </div>
       <div className='xxt xxt2'>
         <div id="map">
