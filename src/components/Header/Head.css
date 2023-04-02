@@ -1,7 +1,7 @@
-video {
+/* video {
   width: 100%;
   height: auto;
-  /* filter: blur(1px) contrast(150%) */
+   filter: blur(1px) contrast(150%) 
 }
 
 .container_Head {
@@ -23,11 +23,11 @@ video {
   white-space: nowrap;
   text-align: left;
   overflow: hidden;
-  /* Para ocultar os caracteres que ainda não foram escritos */
+  /* Para ocultar os caracteres que ainda não foram escritos 
   display: inline-block;
-  /* Para que a animação comece no início da linha */
+  /* Para que a animação comece no início da linha 
   animation: typewriter 2s steps(30) 1s forwards;
-  /* Definindo a animação */
+  /* Definindo a animação 
 }
 
 .typewriter p{
@@ -66,4 +66,173 @@ font-weight: 500;
     opacity: 1;
     transform: translateX(0);
   }
+} */
+/* #parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   height: 100vh;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#text{
+  position: absolute;
+  font-size: 5em;
+  color: #1b283a;
+  text-shadow: 2px 4px 5px #f9f9f9;
+}
+.parallax img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+} */
+
+/* .parallax img#gate-left{
+  position: fixed;
+  transform: translateX(-282px) translateY(-152px);
+}
+.parallax img#gate-right{
+  position: fixed;
+  transform: translateX(305px)translateY(-152px);
+}
+.parallax img#grass{
+  transform: translateY(-129px);
+} */
+
+/* .sec{
+  position: absolute;
+  background: #020912;
+  padding: 30px 100px;
+}
+.sec h2{
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sec p{
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+  text-align: justify;
+} */
+
+
+:root {
+  --index:calc(1vw+1vh);
+  --text:#e7e7e0;
+  --transition:transform 0.75s cubic-bezier(0.075,0.5,0,1);
+}
+.wrapper{
+  background-color: #010101;
+  line-height: 1.5;
+}
+.header-main{
+  position: relative;
+}
+.header-main::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: calc(var(--index)*10);
+  background-image: url('./assets/ground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ bottom: calc(var(--index) * -4.5); 
+}
+.layers{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.layer-head{
+  z-index: 1;
+  transform: translate3d(0,calc(var(--scrollTop)/2),0);
+  transition: var(--transition);
+  will-change: uppercase;
+  font-weight: 900;
+  color: var(--text);
+  text-shadow: 0 0 20px #ba9827;
+}
+.caption{
+  transform: translate3d(0,calc(var(--scrollTop)/5.7),0);
+  font-size: calc(var(--index)/1.17);
+  letter-spacing: calc(var(--index)/3.5);
+  margin-top: calc(var(--index)*-0.75);
+}
+.title{
+  font-size: calc(var(--index)*2.75);
+}
+.img-layer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+  z-index: 2;
+  transition: var(--transition);
+}
+.layer-base{
+  transform: translate3d(0,calc(var(--scrollTop)/1.6),0);
+  z-index: 0;
+}
+.layer-mid{
+  transform: translate3d(0,calc(var(--scrollTop)/2.5),0);
+
+}
+.layer-front{
+  transform: translate3d(0,calc(var(--scrollTop)/5.6),0);
+
+}
+.article-main{
+--mainarticle-transform:translate3d(0,calc(var(--scrollTop)/-7.6));
+min-height: 100vh;
+background-size: cover;
+background-position: center;
+color: var(--text);
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+text-align: center;
+top: -2px;
+z-index: 10;
+}
+.m-header{
+  text-transform: uppercase;
+  font-size: calc(var(--index) * 1.7);
+  letter-spacing:calc(var(--index) / 7.6);
+  transform: var(--mainarticle-transform);
+  transition: var(--transition);
+  will-change: transform;
+}
+.m-paragraph{
+  max-width: calc(var(--index)*30);
+  font-size: calc(var(--index) * 0.9);
+  margin-top:calc(var(--index) / 1.25);
+  transform: var(--mainarticle-transform);
+  transition: var(--transition);
+  will-change: transform;
+}
+.content{
+  will-change: transform;
+}
+.copy{
+  position: absolute;
+  bottom: calc(var(--index)* 2.5);
+  opacity: .5;
+  font-size: calc(var(--index)*0.75);
 }

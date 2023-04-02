@@ -1,11 +1,11 @@
 import React from 'react'
-import Head from '../components/Header/Head'
 import Container from '../components/Container/Container'
+import Head from '../components/Header/Head'
 const Home = () => {
   return (
-    <div className='Home__'>  
-    <Head/>
-    <Container/>
+    <div>
+      <Head />
+      <Container />
     </div>
   )
 }
