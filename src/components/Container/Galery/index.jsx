@@ -10,7 +10,7 @@ const Gallery = () => {
   const [posts, setPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
   const [page, setPage] = useState(0);
-  const [postsPerPage] = useState(6);
+  const [postsPerPage] = useState(5);
   const [searchValue, setSearchValue] = useState('');
 
   const handleLoadPosts = useCallback(async (page, postsPerPage) => {
@@ -31,7 +31,7 @@ const Gallery = () => {
     setPosts(posts);
     setPage(nextPage);
   };
-  
+
   const handleChange = (e) => {
     const { value } = e.target;
     setSearchValue(value);
@@ -40,12 +40,13 @@ const Gallery = () => {
   const noMorePosts = page + postsPerPage >= allPosts.length;
   const filteredPosts = !!searchValue
     ? allPosts.filter((post) =>
-        post.title.toLowerCase().includes(searchValue.toLowerCase())
-      )
+      post.title.toLowerCase().includes(searchValue.toLowerCase())
+    )
     : posts;
 
   return (
     <section className="container__gallery">
+      <h1>Galeria</h1>
       <div className="search-container">
         {!!searchValue && <h1>Search value: {searchValue}</h1>}
         {/* <TextInput searchValue={searchValue} handleChange={handleChange} /> */}

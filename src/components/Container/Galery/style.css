@@ -4,6 +4,13 @@
   min-height: 100%;
   background: #eee;
   padding: 30px;
+  overflow: scroll;
+}
+.container__gallery h1{
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
 }
 .posts {
   display: grid;
@@ -24,4 +31,10 @@
 }
 .post-content {
   padding: 30px;
+}
+.button-container button{
+  display: flex;
+  align-items: center;
+  margin: 1em auto;
+
 }
