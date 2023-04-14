@@ -28,8 +28,8 @@ const Container = () => {
           <p>TRANSFORME O MUNDO COM A GENTE</p>
         </section>
       </div>
-      <div className='xxt'>
-        <Gallery/>
+      <div className='xxt gals'>
+        <Gallery />
       </div>
       <div className='xxt xxt2'>
         <div id="map">
@@ -38,9 +38,9 @@ const Container = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker className='pop'  position={[-15.774314204480694, -48.2823397892441]}>
+            <Marker className='pop' position={[-15.774314204480694, -48.2823397892441]}>
               <Popup>
-                Igreja cátia
+                Igreja Cátia
               </Popup>
             </Marker>
           </MapContainer>

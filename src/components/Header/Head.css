@@ -146,7 +146,7 @@ font-weight: 500;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
- bottom: calc(var(--index) * -4.5); 
+ bottom: calc(var(--index) * -3.5); 
 }
 .layers{
   height: 100vh;
@@ -218,6 +218,7 @@ z-index: 10;
   transform: var(--mainarticle-transform);
   transition: var(--transition);
   will-change: transform;
+  color: black;
 }
 .m-paragraph{
   max-width: calc(var(--index)*30);
@@ -226,6 +227,7 @@ z-index: 10;
   transform: var(--mainarticle-transform);
   transition: var(--transition);
   will-change: transform;
+  color: black;
 }
 .content{
   will-change: transform;
@@ -236,3 +238,27 @@ z-index: 10;
   opacity: .5;
   font-size: calc(var(--index)*0.75);
 }
+
+@media screen and (max-width: 780px) {
+  .caption{
+    transform: translate3d(0,calc(var(--scrollTop)/5.7),0);
+    font-size: calc(var(--index)*5);
+    letter-spacing: calc(var(--index)/6.5);
+    margin-top: calc(var(--index)*-5.75);
+  }
+  .title{
+    font-size: calc(var(--index)*6.75);
+  }
+  
+  .m-header{
+    font-size: calc(var(--index) * 3.7);
+  }
+  .m-paragraph{
+    max-width: none;
+    font-size:15px;
+    margin: 15px;
+    font-weight: bolder;
+  }
+
+}
+

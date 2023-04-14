@@ -1,20 +1,22 @@
 .container__gallery {
-  width: 99.5vw;
+  max-width: 100%;
   margin: 0 autos;
-  min-height: 100%;
+  height: auto;
   background: #eee;
   padding: 30px;
-  overflow: scroll;
 }
+
 .container__gallery h1{
   align-items: center;
   text-align: center;
-  margin-bottom: 1em;
-  font-size: 2em;
+  margin-bottom: 2px;
+  font-size: 1em;
 }
 .posts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 5fr));
+  grid-template-rows: repeat(auto-fill, minmax(300px, 5fr));
+  grid-row: inherit;
   gap: 30px;
 }
 
@@ -36,5 +38,5 @@
   display: flex;
   align-items: center;
   margin: 1em auto;
-
+  color: white;
 }

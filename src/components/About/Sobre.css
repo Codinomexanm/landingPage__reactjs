@@ -10,3 +10,14 @@
     width: 50%;
     color: black;
 }
+@media screen and (max-width: 780px) {
+    .container__{
+        display: flex;
+    }
+    .container__about{
+        margin: 10px;
+        width: 100%;
+        color: red;
+    }
+
+}

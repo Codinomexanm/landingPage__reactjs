@@ -1,11 +1,10 @@
 #root {
   text-align: center;
 }
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  
+.App{
+  max-width: 100vw; /* Define a largura máxima como 100% da largura da viewport */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
 }
 button {
   border-radius: 8px;
