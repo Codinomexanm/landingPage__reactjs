@@ -3,14 +3,11 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <footer>
-        <img src="https://via.placeholder.com/50x50" alt="Logo" />
-        <p>Direitos autorais</p>
-        <p>Igreja X</p>
-        <p>© 2023</p>
-      </footer>
-    </div>
+    <footer class="footer">
+      <p>
+        Feito por <a href="https://github.com/Codinomexanm" target="_blank"> 🤍 Alexandre Pereira</a>
+      </p>
+    </footer>
   )
 }
 

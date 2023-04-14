@@ -33,8 +33,10 @@ function Head() {
           </header>
           <article className="article-main" style={{ backgroundImage: `url(${dungeonImage})` }}>
             <div className="m-article-content">
-              <h2 className="m-header">Palavra do dia</h2>
-              <p className="m-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nesciunt ut cum sed, perferendis dolore earum debitis error asperiores tempora optio provident soluta? Reiciendis aperiam ipsa minima distinctio provident neque! Dolorem officia quos at nisi necessitatibus laudantium omnis earum, tenetur voluptatibus doloribus recusandae quaerat possimus illo! A repellendus repudiandae necessitatibus quidem vero provident officiis harum, cum excepturi sit ipsam pariatur laudantium ex tempora, soluta voluptatibus maiores fugit voluptas exercitationem. Laudantium voluptas reiciendis ut illum aspernatur placeat, alias facere iusto rerum possimus. Ullam fugit incidunt, ad optio labore qui necessitatibus cumque doloremque quibusdam fuga. Itaque aspernatur, perferendis iusto, enim atque tenetur expedita vero a adipisci, error molestiae exercitationem reprehenderit repudiandae voluptatibus iste sequi natus quo ratione voluptatem quam excepturi eligendi voluptate pariatur. Alias, illum omnis perferendis voluptates officia dolore sed facere laudantium, molestias voluptatum magnam commodi consequatur velit blanditiis ad voluptate provident laboriosam accusantium. Eaque maxime, odio temporibus ex laboriosam, mollitia quo velit consequuntur sint itaque rem alias quia quae aliquam animi enim. Pariatur quo tenetur debitis explicabo enim, accusamus voluptates ad harum ratione earum vitae atque, iusto illo similique perspiciatis veniam impedit itaque modi ipsam cumque sit deleniti vel minima nemo! Nesciunt commodi, id incidunt nemo sed natus eaque blanditiis!</p>
+              <h2 className="m-header">Palavra do dia:</h2>
+              <p className="m-paragraph">"Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
+                Josué 1:9
+              </p>
             </div>
             <div className="copy">NOD YT</div>
           </article>

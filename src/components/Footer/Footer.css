@@ -1,28 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  height: 100px;
+  font-family: 'amatic sc', sans-serif;
+  color: white;
   width: 100%;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+  height: 100px;
+  background-color: #2E1C2B;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  margin-right: 10px;
-}
-.footer p{
-  font-size: 20px;
-  color: #fff; 
-  margin-right: 20px; 
 }
