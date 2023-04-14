@@ -52,11 +52,11 @@ const Gallery = () => {
         {/* <TextInput searchValue={searchValue} handleChange={handleChange} /> */}
       </div>
       {filteredPosts.length > 0 && <Posts posts={filteredPosts} />}
-      {filteredPosts.length === 0 && <p>Não existem posts =( </p>}
+      {filteredPosts.length === 0 && <p>Não existem Fotos 🫡 </p>}
       <div className="button-container">
         {!searchValue && (
           <Button
-            text="Load more posts"
+            text="Clique para Carregar mais fotos"
             onClick={loadMorePosts}
             disabled={noMorePosts}
           />

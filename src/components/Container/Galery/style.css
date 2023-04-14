@@ -37,6 +37,8 @@
 .button-container button{
   display: flex;
   align-items: center;
-  margin: 1em auto;
+  margin: 3em auto 1em;
+  padding: 1.5em;
   color: white;
+  background: rebeccapurple;
 }
