@@ -57,13 +57,13 @@
 }
 #transform-world1 {
     color: white;
-    height: 150px;
+    height: 300px;
     background-size: cover;
     background-image: url("../../assets/thiago.jpg");
     background-attachment: fixed;
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
-    padding: 150px 0;
+    padding: 300px 0;
     font-size: 30px;
     font-weight: bolder;
 }

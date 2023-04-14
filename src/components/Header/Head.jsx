@@ -1,7 +1,7 @@
 import layerMiddleImage from "./assets/layer-middle.png"
 import layerBaseImage from "./assets/layer-base.png"
 import layerFrontImage from "./assets/layer-front.png"
-import dungeonImage from "./assets/dungeon.jpg"
+import dungeonImage from "./assets/biblia.jpg"
 import { useEffect } from 'react';
 import './Head.css'
 
@@ -19,6 +19,7 @@ function Head() {
       <div className="wrapper">
         <div className="content">
           <header className='header-main'>
+
             <div className="layers">
               <div className="layer-head">
                 <div className="caption">Bem vindo a </div>
@@ -28,6 +29,7 @@ function Head() {
               <div className="img-layer layer-mid" style={{ backgroundImage: `url(${layerMiddleImage})` }}></div>
               <div className="img-layer layer-front" style={{ backgroundImage: `url(${layerFrontImage})` }}></div>
             </div>
+            <div className='header-top'></div>
           </header>
           <article className="article-main" style={{ backgroundImage: `url(${dungeonImage})` }}>
             <div className="m-article-content">

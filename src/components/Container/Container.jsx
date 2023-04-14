@@ -25,7 +25,6 @@ const Container = () => {
       </div>
       <div>
         <section id="transform-world1">
-          <p>TRANSFORME O MUNDO COM A GENTE</p>
         </section>
       </div>
       <div className='xxt gals'>
