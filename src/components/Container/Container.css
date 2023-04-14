@@ -99,3 +99,12 @@
     height: 500px;
     width: 100%;
 }
+
+
+@media screen and (max-width: 780px) {
+
+    #transform-world1 {
+       background-position: 50%;
+    }
+
+}
