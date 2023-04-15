@@ -97,12 +97,13 @@
 .xxt {
     display: flex;
     width: 100%;
-    height: 900px;
+    min-height: 900px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     color: black;
     text-align: justify;
-    margin: 0 auto;
+    margin: 50px auto 50px;
     text-align: center;
 }
 .xs_content{
@@ -139,12 +140,13 @@
         margin-bottom: 3em;
        }
     .xs_content{
+        margin: 10%;
         min-height: 700px;
         max-width: 80%;
         margin: 0 auto;
     }
     .xs_content p{ 
-        font-weight: 500;
+        font-weight: 400;
         text-align: left;
     }
     .xs_content h1{
