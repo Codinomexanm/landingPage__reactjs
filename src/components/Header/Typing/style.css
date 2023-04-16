@@ -24,7 +24,6 @@
   .Ffont{
     font-size: 20px;
     min-height: 300px;
-    width: 100%;
-    min-width:402px;
+    min-width:350px;
   }
 }
