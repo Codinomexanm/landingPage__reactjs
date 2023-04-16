@@ -80,15 +80,9 @@
     font-weight: bolder;
 }
 .gals{
-    display: flex;
     height: auto;
     width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    color: black;
-    text-align: justify;
-    border-bottom:1px solid #33A8DB80;
-    border-top: 1px solid #33A8DB80;
+    
 }
 .xxt2{
     height: auto;

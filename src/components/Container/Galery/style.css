@@ -47,25 +47,46 @@
 
   .container__gallery {
     width: 100%;
+    height: auto;
+    padding: 1px;
+  }
+  .posts {
+    padding: 0;
+    overflow-y: hidden;
+    display: flex;
+    max-width: 100%;
+    width: 98vw;
+    height: 500px;
+    align-items: center;
+    gap: 15px;
+  }
+  .posts >.post:nth-child(1) {
+    margin-left: 10px;
+  }
+  .posts >.post:last-child {
+    margin-right: 10px;
   }
   .post img {
     max-width: 250px;
     max-height: 250px;
-
   }
-  .posts {
-    overflow-y: hidden;
-    display: flex;
+  .post {
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 8px 8px;
   }
   .container__gallery h1{
-    align-items: center;
-    text-align: center;
-    margin-bottom: none;
     font-size: 12px;
   }
   .post-content {
-    padding: 10px;
-    margin: 50px;
+    min-height: 300px;
+    margin: auto;
+  }
+  .text_gals{
+    padding-top: 3em;
+    font-size:1.5em !important;
+    
   }
 
 }
