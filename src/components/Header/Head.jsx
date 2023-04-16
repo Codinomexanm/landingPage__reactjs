@@ -4,6 +4,7 @@ import layerFrontImage from "./assets/layer-front.png"
 import dungeonImage from "./assets/biblia.jpg"
 import { useEffect } from 'react';
 import './Head.css'
+import Typing from './Typing';
 
 
 
@@ -33,10 +34,8 @@ function Head() {
           </header>
           <article className="article-main" style={{ backgroundImage: `url(${dungeonImage})` }}>
             <div className="m-article-content">
-              <h2 className="m-header">Palavra do dia:</h2>
-              <p className="m-paragraph">"Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
-                Josué 1:9
-              </p>
+
+              <Typing />
             </div>
             <div className="copy">NOD YT</div>
           </article>

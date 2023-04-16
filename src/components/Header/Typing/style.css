@@ -1,0 +1,29 @@
+.Ffont{
+  font-family: 'Special Elite', cursive !important;
+  font-size: 25px;
+  min-height: 200px;
+  min-width:700px; 
+}
+.line{
+  border-right: 2px solid rgba(255, 255, 255, .75) ;
+}
+.lineAnimation{
+  animation: blinkCursor 700ms infinite normal;
+}
+
+@keyframes blinkCursor{
+  from{
+    border-right-color: rgba(0, 0, 0, .75) ;
+  }
+  to{
+    border-right-color: transparent ;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .Ffont{
+    font-size: 20px;
+    min-height: 200px;
+    min-width:500px;
+  }
+}

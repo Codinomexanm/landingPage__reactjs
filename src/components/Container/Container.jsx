@@ -64,7 +64,7 @@ const Container = () => {
           </MapContainer>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 
