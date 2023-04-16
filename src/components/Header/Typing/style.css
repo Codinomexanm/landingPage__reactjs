@@ -3,6 +3,7 @@
   font-size: 25px;
   min-height: 200px;
   min-width:700px; 
+
 }
 .line{
   border-right: 2px solid rgba(255, 255, 255, .75) ;
@@ -24,6 +25,18 @@
   .Ffont{
     font-size: 20px;
     min-height: 300px;
-    min-width:350px;
+    min-width:400px;
+    background-color: red;
+    text-align: start;
+  }
+}
+@media screen and (max-width:800px) {
+  .Ffont{
+    font-size: 20px;
+    min-height: 300px;
+    min-width:380px;
+    padding: 0 15px ;
+    max-width: 40px;
+    text-align: justify;
   }
 }
