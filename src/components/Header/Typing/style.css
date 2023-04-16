@@ -23,7 +23,8 @@
 @media screen and (max-width:1000px) {
   .Ffont{
     font-size: 20px;
-    min-height: 200px;
-    min-width:400px;
+    min-height: 300px;
+    width: 100%;
+    min-width:402px;
   }
 }
